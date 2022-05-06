@@ -22,6 +22,9 @@ body {
   margin: 0;
 }
 
+/*********
+* Header *
+*********/
 #title-container {
   background-color: var(--dark-color);
   margin: 0 0 4em 0;
@@ -57,13 +60,17 @@ address a:hover {
   color: var(--accent-color);
 }
 
+
+
 #img-div {
   padding: 0;
   font-size: 1em;
   margin: 0 0 5em 0;
 }
 
-
+/**************
+* Main Figure *
+**************/
 #image {
   margin: auto;
   display: block;
@@ -81,6 +88,9 @@ address a:hover {
   font-style: italic;
 }
 
+/***************
+* Tribute Info *
+***************/
 #tribute-info {
   text-align: center;
   background-color: var(--light-color);
@@ -113,8 +123,12 @@ li {
   color: black;
   padding: 1.2em 1em;
   font-size: 1.1em;
+  border-radius: 5px;
 }
 
+/************
+* Quotation *
+************/
 blockquote {
   background-color: var(--dark-color);
   color: white;
@@ -136,12 +150,15 @@ blockquote cite {
   padding: .5em;
 }
 
-h2 {
+/************
+* Reference *
+*************/
+.reference-container h2 {
   margin: 1em auto 2em auto;
   text-align: center;
   font-size: 2.1em;
 }
 
-h2 a:hover {
+.reference-container h2 a:hover {
   color: var(--accent-color);
 }
