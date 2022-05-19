@@ -3,7 +3,7 @@
 :root {
   --dark-color: #0b0b0d;
   --light-color: #ffffff;
-  --accent-color: #f2ac49;
+  --accent-color: #f4b661;
 }
 
 html {
@@ -27,45 +27,47 @@ body {
 *********/
 #title-container {
   background-color: var(--dark-color);
-  margin: 0 0 4em 0;
+  margin: 0 0 4rem 0;
   text-align: center;
   color: var(--light-color);
-  padding: 0.1em 0 2em 0;
+  padding: 0.1rem 0 2rem 0;
 }
 
 #title {
-  margin: 1em 0 .3em 0;
+  margin: 1rem 0 .3rem 0;
   text-transform: uppercase;
-  font-size: 3.5em;
+  font-size: 3.5rem;
 }
 
 .subheader {
-  margin: 0 0 1em 0;
-  font-size: 2em;
+  margin: 0 0 1rem 0;
+  font-size: 2rem;
 }
 
 address p {
-  font-size: 1.3em;
+  font-size: 1.6rem;
+  font-style: normal;
 }
 
 address a {
   color: white;
+  font-style: normal;
+  text-decoration: none;
 }
 
 address a:visited {
-  color: blueviolet;
+  color: rgb(191, 179, 179);
 }
 
 address a:hover {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: black;
 }
-
-
 
 #img-div {
   padding: 0;
-  font-size: 1em;
-  margin: 0 0 5em 0;
+  font-size: 1rem;
+  margin: 0 0 5rem 0;
 }
 
 /**************
@@ -81,10 +83,10 @@ address a:hover {
 }
 
 #img-caption {
-  font-size: 1.3em;
+  font-size: 1.6rem;
   text-align: center;
   color: var(--dark-color);
-  margin: .5em 0;
+  margin: .5rem 0;
   font-style: italic;
 }
 
@@ -101,28 +103,27 @@ address a:hover {
 }
 
 #list-title {
-  font-size: 1.8em;
+  font-size: 2rem;
   text-transform: uppercase;
   background-color: var(--dark-color);
   color: var(--light-color);
-  padding: 1em;
+  padding: 1rem;
   margin: 0;
 }
 
 ul {
-  font-size: 1.4em;
+  font-size: 1.8rem;
   text-align: left;
-  margin: 0.5em auto 1em auto;
+  margin: 0.5rem auto 1rem auto;
   list-style: none;
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
 li {
   background-color: var(--accent-color);
-  margin: 1em;
+  margin: 1rem;
   color: black;
-  padding: 1.2em 1em;
-  font-size: 1.1em;
+  padding: 1.2rem 1rem;
   border-radius: 5px;
 }
 
@@ -133,32 +134,33 @@ blockquote {
   background-color: var(--dark-color);
   color: white;
   text-align: center;
-  padding: 1em 1.5em 2em 1.5em;
-  margin: 5em auto 5em auto;
+  padding: 1rem 1.5rem 2rem;
+  margin: 5rem auto 5rem auto;
   width: 40%;
 }
 
 blockquote p {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   margin: 0;
-  padding: .5em;
+  padding: .5rem;
 }
 
 blockquote cite {
-  font-size: 1.4em;
+  font-size: 1.8rem;
   margin: 0;
-  padding: .5em;
+  padding: .5rem;
 }
 
 /************
 * Reference *
 *************/
-.reference-container h2 {
-  margin: 1em auto 2em auto;
+#reference-container h2 {
+  margin: 1rem auto 2rem auto;
   text-align: center;
-  font-size: 2.1em;
+  width: 100%;
+  font-size: 2.1rem;
 }
 
-.reference-container h2 a:hover {
+#reference-container h2 a:hover {
   color: var(--accent-color);
 }
